@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zoo", "Zoo\Zoo.csproj", "{E2E3C9A8-A57E-4846-A4C6-D5ADB7F07A48}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model", "Model\Model.csproj", "{4FC969DA-3474-4C7E-964C-8846B85BD921}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{8004AD33-8E81-4775-8039-2534D9D89941}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Client", "Client", "{8A9E4584-DFDE-4973-AD84-E23B0DA40ADE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E2E3C9A8-A57E-4846-A4C6-D5ADB7F07A48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2E3C9A8-A57E-4846-A4C6-D5ADB7F07A48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2E3C9A8-A57E-4846-A4C6-D5ADB7F07A48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2E3C9A8-A57E-4846-A4C6-D5ADB7F07A48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FC969DA-3474-4C7E-964C-8846B85BD921}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FC969DA-3474-4C7E-964C-8846B85BD921}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FC969DA-3474-4C7E-964C-8846B85BD921}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FC969DA-3474-4C7E-964C-8846B85BD921}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4FC969DA-3474-4C7E-964C-8846B85BD921} = {8004AD33-8E81-4775-8039-2534D9D89941}
+		{E2E3C9A8-A57E-4846-A4C6-D5ADB7F07A48} = {8A9E4584-DFDE-4973-AD84-E23B0DA40ADE}
+	EndGlobalSection
+EndGlobal
